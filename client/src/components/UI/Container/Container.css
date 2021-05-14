@@ -1,0 +1,11 @@
+.Container {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center
+}
+
+/* @media all and (max-width: 767px) {
+    .Container {
+        width: 100%;
+    }
+} */

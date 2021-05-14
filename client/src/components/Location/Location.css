@@ -1,0 +1,13 @@
+.fa-external-link{
+  font-size: 25px;
+  color: gray;
+}
+
+.fa-external-link.fill-heart{
+  color: red;
+}
+
+.fa-external-link:hover{
+  color: green;
+  cursor: pointer;
+}

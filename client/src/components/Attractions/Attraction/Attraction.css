@@ -1,0 +1,25 @@
+.Link{
+  text-decoration: none;
+  color: cadetblue;
+  height: 25px;
+}
+
+.Link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fa-heart{
+  font-size: 25px;
+  color: gray;
+  height: 25px;
+}
+
+.fa-heart.fill-heart{
+  color: red;
+}
+
+.fa-heart:hover{
+  color: red;
+  cursor: pointer;
+}
