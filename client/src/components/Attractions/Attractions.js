@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Attraction from './Attraction/Attraction';
-import Buttom from '../UI/Button/Button';
+import Button from '../UI/Button/Button';
 import Modal from '../UI/Modal/Modal';
 import { Redirect } from 'react-router-dom';
 import { CalculateDistance } from '../../utils/calculates';
@@ -101,7 +101,7 @@ export default function Attractions({ propsLongitude, propsLatitude }) {
                                     </Modal>
                                     : null}
 
-                                <Buttom btnType="Success" clicked={() => setShowModal(prev => !prev)}>{attractionTypeName} הוא סוג האטרציה הכי נפוצה באזורך לחץ כאן  כדי לראות את כולם  </Buttom>
+                                <Button btnType="Success" clicked={() => setShowModal(prev => !prev)}>{attractionTypeName} הוא סוג האטרציה הכי נפוצה באזורך לחץ כאן  כדי לראות את כולם  </Button>
 
                                 <div>
                                     <div>
